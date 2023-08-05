@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  margin-bottom: 5px;
+}
+
+h2:last-child {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* Optional: Adding some additional styling to make the page more visually appealing */
+
+.container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-list {
+  padding-left: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}

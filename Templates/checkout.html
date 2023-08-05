@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Confirmation</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='TemplateStyling/checkout.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Order Confirmation</h1>
+      <h2>Selected Products:</h2>
+      <ul class="product-list">
+        {% for product in products %}
+        <li>{{ product.name }} - ${{ product.price }}</li>
+        {% endfor %}
+      </ul>
+      <h2>Total Price: ${{ total_price }}</h2>
+    </div>
+  </body>
+</html>
